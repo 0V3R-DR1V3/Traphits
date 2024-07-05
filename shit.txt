@@ -1,0 +1,4 @@
+
+
+    sun_img = pygame.img.load('im/sun.jpeg')
+bg_img = pygame.img.load('im/bg.jpeg')

@@ -1,0 +1,67 @@
+.ind{
+    width: 100%;
+    background: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 95%;
+    margin: auto;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Banns{
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 8x;
+    color: black;
+}
+.logo ul{
+    justify-content: space-between;
+
+}
+.logo ul li{
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.logo ul li a{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+}
+.logo ul li a::after{
+    content: '';
+    background: black;
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.logo ul li a:hover::after{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+}
+.about h3{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50%;
+}
